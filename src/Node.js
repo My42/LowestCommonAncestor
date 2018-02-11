@@ -1,3 +1,5 @@
+'use strict'
+
 class Node {
     constructor(id) {
 	if (id === undefined) throw Error('Invalid id node.');
